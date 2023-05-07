@@ -1,0 +1,92 @@
+.chatinterface {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #afecda;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(".././images/ChatBack.jpg");
+  }
+  
+  .roomName {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .roomName h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0047ab;
+  }
+  
+  .messages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 300px;
+    overflow-y: auto;
+  }
+  
+  .message {
+    align-self: flex-start;
+    max-width: 70%;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message:last-child {
+    margin-bottom: 20px;
+  }
+  
+  .message.sent {
+    align-self: flex-end;
+    background-color: #7fee91;
+    color: #000000;
+  }
+
+  .message.received {
+    align-self: flex-start;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .message-input {
+    display: flex;
+    gap: 10px;
+    position: sticky;
+    bottom: 0;
+    margin-top: 20px;
+  }
+  
+  .message-input input {
+    flex-grow: 1;
+    padding: 15px;
+    border: none;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-input button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .message-input button img {
+    width: 30px;
+    height: 30px;
+  }

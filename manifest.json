@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "R2D2 - Involve.ai",
+    "version": "1.0",
+    "description": "This is a React-based Chrome extension to give Prompt Replies a User can use for his Messages",
+    "icons": {
+      "16": "logo192.png"
+    },
+    "browser_action": {
+      "default_popup": "index.html"
+    },
+    "permissions": [
+      "activeTab"
+    ]
+  }
